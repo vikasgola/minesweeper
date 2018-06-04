@@ -4,7 +4,7 @@ var rows = 20;
 var w = 30;
 var grid = [];
 var bugs = 0.2;
-
+var gameover = false;
 
 function setup(){
     createCanvas(window.innerWidth,window.innerHeight);
@@ -42,6 +42,13 @@ function draw(){
             grid[i][j].show();
         }
     }
+
+	if(gameover){
+        fill(255);
+        textSize(width/20);
+        textAlign(CENTER);
+        text("Game Over!",width/2,height-60);	
+	}
 }
 
 function mousePressed(){

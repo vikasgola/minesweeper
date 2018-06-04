@@ -43,6 +43,7 @@ function cell(i,j,w){
                         grid[i][j].revealed = true;
                     }
                 }
+				gameover = true;
             }
             
             if(this.neighbours == 0){
