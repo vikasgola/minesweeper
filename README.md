@@ -1,3 +1,4 @@
 # minesweeper
 
-Play here-> [https://vikasgola.github.io/minesweeper/](Minesweeper)
+	Minesweeper game written in javascript
+Play here-> [Minesweeper](https://vikasgola.github.io/minesweeper/)
