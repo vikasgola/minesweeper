@@ -9,6 +9,11 @@ var gameover = false;
 function setup(){
     createCanvas(window.innerWidth,window.innerHeight);
 
+    if( height > width){
+        cols = 20;
+        rows = 10;
+    }
+
     for(var i=0;i<rows;i++){
         grid[i] = [];        
         for(var j=0;j<cols;j++){
